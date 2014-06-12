@@ -1,6 +1,3 @@
-
-<!-- saved from url=(0104)https://gist.githubusercontent.com/mahdi/1119793/raw/f9af455954e2db67bb1074e5ad729aac46a91cb8/.gitignore -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">#Junk Files
 *.DS_Store
 [Tt]humbs.db
 
@@ -9,10 +6,7 @@
 [Bb]in
 [Dd]ebug
 [Bb]uild/
-**/App_Data/TEMP/
-**/App_Data/Logs/
-**/App_Data/ClientDependency/
-**/App_Data/Preview/
+App_Data/*
 *.user
 *.suo
 *.exe
