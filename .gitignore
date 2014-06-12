@@ -9,8 +9,10 @@
 [Bb]in
 [Dd]ebug
 [Bb]uild/
-App_Data
-App_data
+**/App_Data/TEMP/
+**/App_Data/Logs/
+**/App_Data/ClientDependency/
+**/App_Data/Preview/
 *.user
 *.suo
 *.exe
