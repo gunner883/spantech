@@ -20,7 +20,7 @@
 *.tlb
 *.tlh
 *.[Cc]ache
-*.bak
+#*.bak
 *.ncb
 *.ilk
 *.log
