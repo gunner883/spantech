@@ -1,51 +1,49 @@
-*.DS_Store
-[Tt]humbs.db
-
-#Visual Studio Files
-[Oo]bj
-[Bb]in
-[Dd]ebug
-[Bb]uild/
-App_Data/*
-*.user
-*.suo
-*.exe
-*.pdb
-*.aps
-*_i.c
-*_p.c
-*.ncb
-*.tlb
-*.tlh
-*.[Cc]ache
-#*.bak
-*.ncb
-*.ilk
-*.log
-*.lib
-*.sbr
-*.sdf
-ipch/ 
-*.dbmdl
-*.csproj.user
-*.cache
-*.swp
-*.vspscc
-*.vssscc
+-- Files
 #*.bak.*
 #*.bak
-
-#Tools
-_ReSharper.*
-_ReSharper*/
+*.dll
+*.exe
+*.ldf
+*.log
+*.mdf
+*.msi
+*.pdb
 *.resharper
-*.resharper.user
-[Nn][Dd]epend[Oo]ut*/
-Ankh.NoLoad
+*.sqlite
+*.typemock
+# used by the SPDisposeCheck VS add-in
+solution.disposechecksettings
+ 
+#-- OS Files
+*.DS_Store
+[Tt]humbs.db
+ 
+#NuGet
+packages/
+*.nupkg
 
-#Other
-.svn
-
-# Include DLLs if they're in the NuGet packages directory
-!/packages/*/lib/*.dll
-!/packages/*/lib/*/*.dll</pre></body></html>
+#-- Directories
+App_Data/*
+[Bb]in/
+[Oo]bj/
+_ReSharper.*/
+tmp/
+/TEMP/
+/temp/
+.svn/
+.git/
+!/lib
+# mstest test results
+TestResults
+ 
+#-- Microsoft Visual Studio
+*.sln.cache
+*.suo
+*.user
+*.vspscc
+*.vssscc
+ 
+#-- MonoDevelop specific
+*.pidb
+*.userprefs
+*.usertasks
