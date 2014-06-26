@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Textpage guid="3b6976af-5522-45a6-80ec-1c040c522041" id="1072" nodeName="Services" isDoc="" updated="2014-06-25T17:14:06.823Z" parentGUID="4bf38fe2-8694-4e4b-a010-d0bf3da15b3e" nodeTypeAlias="Textpage" templateAlias="content" sortOrder="0" published="false">
+<Textpage guid="3b6976af-5522-45a6-80ec-1c040c522041" id="1072" nodeName="Services" isDoc="" updated="2014-06-26T16:11:38.7108594-04:00" parentGUID="4bf38fe2-8694-4e4b-a010-d0bf3da15b3e" nodeTypeAlias="Textpage" templateAlias="content" sortOrder="0" published="true">
   <umbnavihide>0</umbnavihide>
   <bodyText><![CDATA[<p>This is where the list of services would go:</p>
 <p> </p>
 <ul>
-<li>Service 1</li>
+<li>Custom Application Development</li>
 <li>Service 2</li>
 <li>Service 3</li>
 </ul>]]></bodyText>
